@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Fonts Awesome Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Strat header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Tours</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tours</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Blog whith right sidebar</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Blog whith left sidebar</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Blog whithout sidebar</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Blog single whith right sidebar</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Blog single whith left sidebar</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Blog single whithout sidebar</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">404 Page</a></li>
+                <li><a class="dropdown-item" href="#">Email Template</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Shortcodes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Landing Page</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Enter Keyword..."
+              aria-label="Search"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End Header -->
+
+    <!-- Start hero -->
+    <section class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="text text-center text-md-start">
+          <h1 class="display-2 fw-light"> Travel & Adventures</h1>
+          <p class="lead">Discover amzaing places at exclusive deals. </p>
+          <a class="btn btn-primary btn-lg">Explore More</a>
+        </div>
+      </div>
+    </section>
+    <!-- End hero -->
+
+    <!-- Start data -->
+    <section class="data">
+      <div class="container">
+        <form class="search-form">
+          <div class="box">
+            <label>Date from:</label>
+            <input type="date" />
+          </div>
+
+          <div class="box">
+            <label>Destinations:</label>
+            <select>
+              <option>Select Location</option>
+              <option value="London">London</option>
+              <option value="Gaza">Gaza</option>
+              <option value="Palestine">Palestine</option>
+              <option value="Egypt">Egypt</option>
+              <option value="Syria">Syria</option>
+              <option value="Jordan">Jordan</option>
+            </select>
+          </div>
+
+          <div class="box">
+            <label>Activity:</label>
+            <select>
+              <option>Select Any</option>
+              <option value="Adventure">Adventure</option>
+              <option value="Beache">Beache</option>
+              <option value="City Tours">City Tours</option>
+            </select>
+          </div>
+
+          <div class="box">
+            <label>Guests:</label>
+            <select>
+              <option>0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+
+          <button type="submit">Find Tour</button>
+        </form>
+      </div>
+    </section>
+    <!-- End data -->
+
+    <!-- Start About us -->
+    <section class="about">
+      <div class="container">
+        <img src="images/about.jpg" alt="" />
+        <div class="text">
+          <span>About Us</span>
+          <h1>Plan Your Trip with Tours</h1>
+          <p>
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.
+          </p>
+          <ul>
+            <li>
+              <i class="fas fa-check-circle"></i> 2000+ Our Worldwide Guide
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> 100% Trusted Tour Agency
+            </li>
+            <li><i class="fas fa-check-circle"></i> 24+ Years of Experience</li>
+            <li>
+              <i class="fas fa-check-circle"></i> 100% Travelers are Happy
+            </li>
+          </ul>
+          <button>Booking Now</button>
+        </div>
+      </div>
+    </section>
+    <!-- End About us -->
+
+    <!-- Start tours -->
+    <section class="tours">
+      <h2>Featured tours</h2>
+      <h1>Most Popular Tours</h1>
+      <div class="container">
+        <div class="trip-card">
+          <div class="image-box">
+            <img src="images/s5.jpg" alt="America Lake Tahoe" />
+          </div>
+          <div class="card-content">
+            <div class="rating">
+              ⭐ ⭐ ⭐ ⭐ <i class="fa-solid fa-star-half-stroke"></i>
+              <span>4.06</span>
+            </div>
+            <h3>America – Lake Tahoe</h3>
+            <p class="location">📍 Figueroa Mountain Road, USA</p>
+            <div class="card-footer">
+              <div class="price">From <span>$59.00</span></div>
+              <div class="two">
+                <div class="days">⏱ 12 Days</div>
+                <a href="#" class="explore"> Explore → </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="trip-card">
+          <div class="image-box">
+            <img src="images/s1.jpg" alt="America Lake Tahoe" />
+          </div>
+          <div class="card-content">
+            <div class="rating">
+              ⭐ ⭐ ⭐ ⭐ <i class="fa-solid fa-star-half-stroke"></i>
+              <span>4.07</span>
+            </div>
+            <h3>Discovery Best Tours</h3>
+            <p class="location">📍 Central Park West NY,USA</p>
+            <div class="card-footer">
+              <div class="price">From <span>$39.00</span></div>
+              <div class="two">
+                <div class="days">⏱ 10 Days</div>
+                <a href="#" class="explore"> Explore → </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="trip-card">
+          <div class="image-box">
+            <img src="images/s2.jpg" alt="America Lake Tahoe" />
+          </div>
+          <div class="card-content">
+            <div class="rating">
+              ⭐ ⭐ ⭐ ⭐ <i class="fa-solid fa-star-half-stroke"></i>
+              <span>4.05</span>
+            </div>
+            <h3>Dubai - Stunning Places</h3>
+            <p class="location">📍 5th Avenue,London</p>
+            <div class="card-footer">
+              <div class="price">From <span>$69.00</span></div>
+              <div class="two">
+                <div class="days">⏱ 15 Days</div>
+                <a href="#" class="explore"> Explore → </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="trip-card">
+          <div class="image-box">
+            <img src="images/s3.jpg" alt="America Lake Tahoe" />
+          </div>
+          <div class="card-content">
+            <div class="rating">
+              ⭐ ⭐ ⭐ ⭐ <i class="fa-solid fa-star-half-stroke"></i>
+              <span>4.07</span>
+            </div>
+            <h3>Enquery Form Only-Italy</h3>
+            <p class="location">📍 Henley Street,Itly</p>
+            <div class="card-footer">
+              <div class="price">From <span>$39.00</span></div>
+              <div class="two">
+                <div class="days">⏱ 6 Days</div>
+                <a href="#" class="explore"> Explore → </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End tours -->
+
+    <!-- Strat Statistics -->
+    <section class="stats-section">
+      <div class="overlay">
+        <span class="subtitle">Statistics</span>
+        <h2>We have over 10 years Experience</h2>
+
+        <div class="stats">
+          <div class="stat-box">
+            <div class="icon">📍</div>
+            <h3>200+</h3>
+            <p>Total Destinations</p>
+          </div>
+
+          <div class="stat-box">
+            <div class="icon">😊</div>
+            <h3>100+</h3>
+            <p>Happy People</p>
+          </div>
+
+          <div class="stat-box">
+            <div class="icon">🏅</div>
+            <h3>30+</h3>
+            <p>Awards Won</p>
+          </div>
+
+          <div class="stat-box">
+            <div class="icon">🏖️</div>
+            <h3>130+</h3>
+            <p>Stunning Places</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Statistics -->
+
+    <!-- Start Our Services -->
+    <section class="services">
+      <div class="container">
+        <span>Our Services</span>
+        <p class="p">Our Amazing Services for your <br />Travel</p>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-dove"></i></div>
+            <h2>Wildlife Toues</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Laudantium tempora <br />
+              rerum perpicitas?
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-plane-departure"></i></div>
+            <h2>Adventure Tours</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Laudantium tempora <br />
+              rerum perpicitas?
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa-solid fa-map-marker-alt"></i></div>
+            <h2>Trip Planing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Laudantium tempora <br />
+              rerum perpicitas?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Services -->
+
+    <!-- Start Our Features -->
+    <section class="features">
+      <div class="container">
+        <img src="images/about2.jpg" alt="" />
+        <div class="text">
+          <span>Our Features</span>
+          <h1>Why Choose Tours!</h1>
+          <p class="p">
+            Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices
+            in <br />
+            ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet <br />
+            consectetur adipisicing elit.
+          </p>
+          <div class="link">
+            <div class="f">
+              <div class="icon"><i class="fa-solid fa-sun"></i></div>
+              <div class="f1">
+                <h2>Professional and Certified</h2>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  <br />
+                  qui officia deserunt mollit.
+                </p>
+              </div>
+            </div>
+
+            <div class="f">
+              <div class="icon"><i class="fa-solid fa-money-bill"></i></div>
+              <div class="f1">
+                <h2>Get Instant Tour Bookings</h2>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  <br />
+                  qui officia deserunt mollit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Features -->
+
+    <!-- Start Our Blog -->
+    <section class="blog">
+      <div class="container">
+        <span class="s">Our Blog</span>
+        <p class="p">
+          Learn more from our latest Blog <br />
+          Posts
+        </p>
+        <div class="b">
+          <div class="card">
+            <div class="h">
+              <div class="label">TRIPS</div>
+              <img src="images/blog1.jpg" alt="" />
+            </div>
+            <div class="text">
+              <div class="icon">
+                <div><i class="fa-solid fa-user"></i><span>John</span></div>
+                <div><i class="fa-solid fa-heart"></i><span>23</span></div>
+                <div>
+                  <i class="fa-solid fa-calendar"></i><span>Dec 06, 2021</span>
+                </div>
+              </div>
+              <h1>Travel the Most Beautiful Places in the World</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur elit. Earum mollitia
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="h">
+              <div class="label">TRAVELS</div>
+              <img src="images/blog2.jpg" alt="" />
+            </div>
+            <div class="text">
+              <div class="icon">
+                <div><i class="fa-solid fa-user"></i><span>Anton</span></div>
+                <div><i class="fa-solid fa-heart"></i><span>24</span></div>
+                <div>
+                  <i class="fa-solid fa-calendar"></i><span>Dec 07, 2021</span>
+                </div>
+              </div>
+              <h1>
+                A Place where Start New <br />
+                Life with Peace
+              </h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur elit. Earum mollitia
+                ipsam autem.
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="h">
+              <div class="label">JOURNEY</div>
+              <img src="images/blog3.jpg" alt="" />
+            </div>
+            <div class="text">
+              <div class="icon">
+                <div><i class="fa-solid fa-user"></i><span>Miche</span></div>
+                <div><i class="fa-solid fa-heart"></i><span>22</span></div>
+                <div>
+                  <i class="fa-solid fa-calendar"></i><span>Dec 08, 2021</span>
+                </div>
+              </div>
+              <h1>Top 10 Destinations & Adventure Trips</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur elit. Earum mollitia
+                ipsam autem.
+              </p>
+              <button>Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Blog -->
+
+    <!-- Start Promocode -->
+    <section class="Promocode">
+      <div class="container">
+        <img src="images/img.jpg" alt="" />
+        <div class="pro">
+          <span> For 30% Discount</span>
+          <h1>Get Our Promocode</h1>
+          <p>
+            Uspendisse efficitur orci urna. In et augue ornare, tempor massa in,
+            luctus <br />
+            sapien. Proin a diam et dui fermentum molestie vel id neque.
+          </p>
+          <span class="s">Never Miss a Deal !</span>
+          <div class="in">
+            <input type="email" placeholder="Entet your email id" />
+            <button>Get Promocode</button>
+          </div>
+          <p class="p1">(Or) To Get Our Mobile Apps</p>
+          <div class="icon">
+            <a href=""><i class="fa-brands fa-apple"></i></a>
+            <a href=""><i class="fa-brands fa-google-play"></i></a>
+            <a href=""><i class="fa-brands fa-windows"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Promocode -->
+
+    <!-- Start footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="col">
+            <h3>Contact Info</h3>
+            <p>
+              Address : Tours, 10001, 5th Avenue, #06 lane <br />
+              street, NY - 62617.
+            </p>
+            <p>Phone Number : +1(21) 234 4567</p>
+            <p>Email : email@example.com</p>
+
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Work with us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Rewards</a></li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="#">Blog Posts</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Our Partners</a></li>
+              <li><a href="#">License & uses</a></li>
+              <li><a href="#">Events</a></li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h3>Subscribe</h3>
+            <form class="subscribe">
+              <input type="email" placeholder="Email Address" />
+              <button type="submit">Subscribe</button>
+            </form>
+            <p class="note">
+              Subscribe to our mailing list and get updates to <br />
+              your email inbox.
+            </p>
+          </div>
+        </div>
+
+        <div class="copy">
+          © 2021 Tours. All rights reserved. Design by <a href="">W3Layouts</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
